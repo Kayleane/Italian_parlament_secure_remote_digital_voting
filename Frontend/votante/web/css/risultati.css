@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Oxygen';
+    src: url(../font/Oxygen-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Oxygen bold';
+    src: url(../font/Oxygen-Bold.ttf);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen';
+    color: #385075;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parte1
+{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.parte1 .element
+{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.parte2 .element
+{
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+.parte2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.element 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1
+{
+    font-family: 'Oxygen bold';
+    font-size: 35px;
+    line-height: 81px;
+    margin-bottom: -30px;
+    margin-top: -20px;
+}
+
+.text h2
+{
+    font-family: 'Oxygen bold';
+    font-size: 25px;
+    line-height: 81px;
+    margin-bottom: -25px;
+}
+
+.text p
+{
+    font-family: 'Oxygen bold';
+    text-align: center;
+    font-size: 90px;
+}
+
+.buttons
+{
+    margin-top: 70px;
+    flex-direction: row;
+}
+
+button
+{
+    justify-content: center;
+    align-items: center;
+    padding: 17px 46px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Oxygen bold';
+    background-color: #fff;
+    box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+button img
+{
+    width: 15px;
+    height: 15px;
+}
